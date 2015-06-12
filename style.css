@@ -2,7 +2,7 @@ body
 {
 	padding: 0;
 	margin: 0 ;
-	background-image: url('ronds.jpg');
+	background: ;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover ;
@@ -22,7 +22,6 @@ body
 	padding: 20px;
 	background: #ccc;
 	height:50px;
-	background-image: url('haut.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
@@ -59,7 +58,7 @@ body
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+
 
 #edito
 {
@@ -68,12 +67,9 @@ body
 	padding: 0%;
 	margin: 1%;
 	width: 64%;
-	background-color: #f4fcff;
+	background: #ccc;
 	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
+
 	opacity: 0.8;
 }
 
@@ -95,10 +91,6 @@ div.element
 	padding: 0%;
 	background-color: #f4fcff;
 	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
 	opacity: 0.8;
 }
 
@@ -125,9 +117,28 @@ p
 
 h2,h3
 {
-	text-align: center;
+font-size:22px;
+	background:url(images/post-h2.gif) repeat-x 0 bottom;
+	padding-bottom:15px;
+	line-height:22px;
+	font-weight:normal;
+	margin-bottom:10px;
+	color:#383838;
+	text-align:center;
+	text-transform : capitalize;
 }
-
+h1
+{
+font-size:22px;
+	background:url(images/post-h2.gif) repeat-x 0 bottom;
+	padding-bottom:15px;
+	line-height:22px;
+	font-weight:normal;
+	margin-bottom:10px;
+	color:#383838;
+	text-align:center;
+	text-transform : capitalize;
+}
 #footer
 {
 	clear: both;
@@ -136,7 +147,6 @@ h2,h3
 	font-weight: bold;
 	padding: 20px;
 	height: 1%;
-	background-image: url('bas.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
